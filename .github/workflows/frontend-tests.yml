@@ -1,7 +1,7 @@
 name: Frontend Tests
 on:
   push:
-    branches: [ teamN-name ]
+    branches: team5-rashila 
 
 
 jobs:
