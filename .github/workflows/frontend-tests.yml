@@ -1,28 +1,29 @@
-name: Frontend tests
-
+name: Frontend Tests
 on:
   push:
-    branches: team5-rashila
+    branches: [ teamN-name ]
 
-    jobs:
-    test:
+
+jobs:
+  test:
     runs-on: ubuntu-latest
- 
+    
     steps:
     - uses: actions/checkout@v4
-
+    
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '20'
         cache: 'npm'
-
+    
     - name: Install dependencies
       working-directory: ./frontend
       run: npm install
-
-    - name: Run all tests with coverage
+    
+    - name: Run unit tests
       working-directory: ./frontend
       run: npm test
+
 
 
