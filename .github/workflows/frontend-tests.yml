@@ -1,8 +1,7 @@
-name: Frontend Tests
+name: Frontend Tests on PR
 on:
-  push:
-    branches: team5-rashila 
-
+  pull_request:
+    branches: main
 
 jobs:
   test:

@@ -4,7 +4,7 @@ A comprehensive CI/CD workshop demonstrating best practices with React frontend,
 
 ## Architecture
 
-- **Frontend**: React.js deployed to S3 + CloudFront
+- **Frontend**: React.js deployed to S3 + CloudFront 
 - **Backend**: Node.js API deployed to EC2 in containers
 - **Database**: PostgreSQL for data persistence
 - **Testing**: Unit, Integration, and E2E tests with Cypress
@@ -144,4 +144,4 @@ DATABASE_URL=postgresql://cicd_user:cicd_password@localhost:5432/cicd_workshop
 ```
 REACT_APP_API_URL=http://localhost:3001/api
 ```
-
+cicd
