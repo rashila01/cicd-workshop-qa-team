@@ -58,7 +58,7 @@ jobs:
       run: npm start
     - name: Run cypress tests
       working-directory: ./e2e-tests
-      run: npm run test
+      run: npm run test:e2e
       env:
         CYPRESS_BASE_URL: http://localhost:3000
         CYPRESS_API_URL: http://localhost:3001/api
